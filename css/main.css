@@ -1,0 +1,100 @@
+/* Reseteo */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Variables*/
+:root {
+  --lav-light: #A341FF;
+  --lav: #b57edc;
+}
+
+/* Tipografía general */
+body {
+  font-family: raleway;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+}
+
+.mb-6 {
+  margin-bottom: 4rem;
+}
+
+
+.card-img-top:hover {
+  opacity: 0.9;
+}
+
+
+.btn-lav {
+  color: #fff;
+  background-color:  #D1A5FA;
+  border-color:  #D1A5FA;
+}
+
+.btn-lav:hover{
+  color: #fff;
+  background-color:  #A341FF;
+  border-color:  #A341FF;
+  transform: scale(0.9);
+}
+
+.bg-lav{
+  background-color: #D1A5FA;
+  border-bottom: 2px solid #A341FF;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: var(--lav);
+  height: 100px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.anchoFooter {
+  margin-top: 30px;
+}
+
+.redes {
+  display: inline-block;
+}
+
+.bi-facebook {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.bi-facebook:hover {
+  color: #3b5998;
+}
+
+.bi-whatsapp {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.bi-whatsapp:hover {
+  color: #25d366;
+}
+
+.bi-instagram {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+}
+
